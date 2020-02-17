@@ -1,0 +1,33 @@
+{
+  "name": "assignment02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  ./server/server.js",
+    "compile": "babel src --presets react --out-dir public",
+    "watch": "babel src --presets react --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chintan012/Assignment02.git"
+  },
+  "author": "Chintan Bhadrecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chintan012/Assignment02/issues"
+  },
+  "homepage": "https://github.com/Chintan012/Assignment02#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
